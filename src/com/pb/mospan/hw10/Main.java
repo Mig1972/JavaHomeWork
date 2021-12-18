@@ -5,7 +5,7 @@ public class Main  {
         NumBox <Float> Float_P = new NumBox<>(5);
         NumBox <Integer> Integer_P = new NumBox<>(4);
         try {
-            Integer_P.add(new Integer(-101));
+            Integer_P.add(new Integer(0));
             Integer_P.set(1,new Integer(45646));
             Integer_P.add(new Integer(-555));
             Integer_P.set(3, new Integer(651));
