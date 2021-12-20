@@ -225,8 +225,8 @@ public class Main {
         {   PhoneBook phoneBook = phone.get(i);
             FIO.add(phoneBook.getFio()); }
 
-        int index = FIO.indexOf(str);
-        return index;
+        // int index = FIO.indexOf(str);
+        return FIO.indexOf(str);
     }
 
 

@@ -72,7 +72,7 @@ public class PhoneBook {
     public void setMod(LocalDateTime modification) {
         this.modification = modification;
     }
-/*
+
     @Override
     public String toString() {
         return   "{\n" +
@@ -84,5 +84,5 @@ public class PhoneBook {
                 '}';
     }
 
- */
+
 }
