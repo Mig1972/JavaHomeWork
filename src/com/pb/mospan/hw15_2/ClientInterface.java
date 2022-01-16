@@ -27,7 +27,7 @@ public class ClientInterface extends JFrame {
             e.printStackTrace();
         }
         setBounds(300, 200, 400, 300);
-        setTitle("Client");
+        setTitle("Клиент");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jTextArea = new JTextArea();
         jTextArea.setEditable(false);
@@ -36,9 +36,9 @@ public class ClientInterface extends JFrame {
         add(jsp, BorderLayout.CENTER);
         JPanel bottomPanel = new JPanel(new BorderLayout());
         add(bottomPanel, BorderLayout.SOUTH);
-        JButton jbSendMessage = new JButton("Send");
+        JButton jbSendMessage = new JButton("Отправить");
         bottomPanel.add(jbSendMessage, BorderLayout.EAST);
-        jTextField = new JTextField("Enter a message: ");
+        jTextField = new JTextField("Введите сообщение: ");
         bottomPanel.add(jTextField, BorderLayout.CENTER);
 
         jbSendMessage.addActionListener(e -> {
